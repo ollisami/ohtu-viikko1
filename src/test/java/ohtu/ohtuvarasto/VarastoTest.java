@@ -38,6 +38,7 @@ public class VarastoTest {
     
     @Test
     public void konstruktoriKahdellaParametrilla() {
+        
         Varasto v = new Varasto(-1, -1);
         assertEquals(0, v.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, v.getSaldo(), vertailuTarkkuus);
