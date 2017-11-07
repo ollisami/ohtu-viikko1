@@ -6,5 +6,4 @@
 
 [![codecov](https://codecov.io/gh/ollisami/ohtu-viikko1/branch/master/graph/badge.svg)](https://codecov.io/gh/ollisami/ohtu-viikko1)
 
-Muutos.
 
