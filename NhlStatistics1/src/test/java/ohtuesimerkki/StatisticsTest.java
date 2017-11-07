@@ -7,10 +7,7 @@ package ohtuesimerkki;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -56,7 +53,6 @@ public class StatisticsTest {
     
     @Test
     public void teamToimii() {
-        Player p = stats.search("asdasd");
         assertFalse(stats.team("EDM").isEmpty());
         assertTrue(stats.team("TEST").isEmpty());
     }
